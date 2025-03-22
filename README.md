@@ -1,3 +1,7 @@
+# Happy cases
+
+* [Bedřiška Rosenbaumanová](https://github.com/pavelkraleu/e2b_hack/blob/main/research/research_bedřiška_rosenbaumanová.md)
+
 # Parcel Analyzer
 
 This tool analyzes land parcels and their owners, calculating value scores and name uniqueness to help identify the most valuable parcels with uniquely identifiable owners.
