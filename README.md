@@ -2,6 +2,11 @@
 
 **HeirLocator** is an autonomous agent designed to assist heir researchers in identifying potential heirs to forgotten properties in the Czech Republic. By automating data processing and online research, it significantly reduces the time and effort required to evaluate a large dataset of [over 400,000 entries of unclaimed land parcels in the country](https://www.uzsvm.gov.cz/informace-pro-verejnost).
 
+## Demovideo
+
+- [Demovideo here](https://www.loom.com/share/db95b1a68b2d43c0b4e4caf418ee8bac)
+
+
 ## 🚨 Problem It Solves
 
 Approximately 120,000 land parcels, with a total estimated value of 0.5 billion USD, have been taken over by the state after being forgotten during inheritance proceedings. Some heirs of the original owners—most of whom were born between 1890 and 1920—could potentially be identified through simple online research using public family trees, local historical records, and wartime documents. However, manually searching through thousands of entries is a tedious and time-consuming task. **HeirLocator** automates this process and helps prioritize the most promising leads.
