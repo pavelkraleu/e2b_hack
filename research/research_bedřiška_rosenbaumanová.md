@@ -1,33 +1,46 @@
 # Research Summary for Bedřiška Rosenbaumanová
 
-## Quick Summary
+## Research Summary
 - **Exact Person Found**: Yes
-- **Years of Life**: 1868-1942
-- **Family Members**: Pavel Rosenbaum: Husband, died in Dachau in 1941, Eva Orlíková: Daughter, perished in Trawniki, Jiří Rosenbaum: Son, perished in Majdanek in 1942
-- **Fate**: Deported from Kolín to Terezín on June 5, 1942, and subsequently to Trawniki on June 12, 1942, where she was murdered.
+  - **Reason for Exact Person Found**: The details provided in the summary specifically match the historical records of Bedřiška Rosenbaumová and her family.
+- **Years of Life**: 1868–1942
+- **Family Members**: Husband: Pavel Rosenbaum (1890–1941), Daughter: Eva Orlíková, Son: Jiří Rosenbaum
+- **Fate**: Deported to Terezín Ghetto on March 23, 1942, and murdered on August 4, 1942.
+
+## Important Images
+- No images or documents found
 
 ---
 
-## Detailed Research
-# Bedřiška Rosenbaumová: A Brief Overview
+## Last known information about the person
+- Last known location: Úvaly, Czech Republic
+- Property at: Úvaly 
 
-## Biography
-Bedřiška Rosenbaumová was born on August 5, 1868. She resided in Brno, Czech Republic, before being deported during the Holocaust. She was part of the Jewish community in Úvaly, a town located near Prague, Czech Republic. The Rosenbaum family was known for their active role in the local community, owning properties and engaging in various enterprises, including a brick factory and a farm. Bedřiška was married to Pavel Rosenbaum, a prominent member of the local community, known for his involvement in social activities such as the Sokol gymnastic movement and the local fire brigade.
+## Detailed Research
+# Bedřiška Rosenbaumová: A Historical Overview
+
+## Brief Biography
+Bedřiška Rosenbaumová was born on August 5, 1868. She was a resident of Brno, Czech Republic, before being deported during World War II. Bedřiška was part of the Jewish community that suffered under Nazi persecution during the Holocaust.
 
 ## Family Members
-- **Pavel Rosenbaum**: Husband of Bedřiška. He was an influential figure in Úvaly, owning a state farm and a brick factory. Pavel was arrested by the Nazis and died in the Dachau concentration camp in 1941.
-- **Eva Orlíková**: Daughter of Bedřiška. She was briefly married and deported to Trawniki, where she perished.
-- **Jiří Rosenbaum**: Son of Bedřiška, who perished in the Majdanek concentration camp in 1942.
+- **Husband:** Pavel Rosenbaum (1890–1941)
+- **Children:**
+  - **Daughter:** Eva Orlíková
+  - **Son:** Jiří Rosenbaum
 
-## Fate of Bedřiška Rosenbaumová
-Bedřiška Rosenbaumová was deported from Kolín to Terezín on June 5, 1942, and subsequently transferred to Trawniki on June 12, 1942, where she was murdered. The family suffered greatly during the Holocaust, with none surviving the Nazi persecution. 
+The Rosenbaum family was prominent in Úvaly, Czech Republic. Pavel Rosenbaum was a well-known figure within the local community, actively involved in social and civic activities, including running a brickworks and being associated with the Sokol movement and fire brigade in Úvaly.
 
-## Additional Information
-- The Rosenbaum family's estate in Úvaly, known as "Rosenbaumův statek," was a significant local landmark. After the war, their property was repurposed for various administrative and cultural uses.
-- A memorial has been established in Úvaly to honor the Rosenbaum family and other Jewish victims from the town.
+## Relevant Information
+The Rosenbaum family owned a property in Úvaly, which was historically known as the Rosenbaum’s estate. This property was redeveloped over the years, now serving different administrative and cultural purposes under the name "Pětašedesátka." The family was part of a small Jewish community in Úvaly.
+
+Bedřiška's husband, Pavel, was arrested in 1939 during the Nazi occupation and died in the Dachau concentration camp in 1941. His remains were interred at the New Jewish Cemetery in Olšany, Prague. 
+
+## Fate of the Person
+Bedřiška Rosenbaumová was deported from Brno to the Terezín Ghetto on March 23, 1942, as part of transport Ad. She was murdered in Terezín on August 4, 1942. Her daughter, Eva, and son, Jiří, were also victims of the Holocaust, with Eva dying in the Trawniki concentration camp and Jiří in Majdanek.
 
 ## Sources
-- [Holocaust.cz on Bedřiška Rosenbaumová](https://www.holocaust.cz/en/database-of-victims/victim/118485-bedriska-rosenbaumova/)
-- [Jewish Museum in Prague](https://pinkas.jewishmuseum.cz/vyhledavani/detail?victim_id=28992)
-- [Forum24 article on Pavel Rosenbaum](https://www.forum24.cz/pavel-rosenbaum-%E2%80%A01941-z-uval-a-jeho-po-80-letech-nalezeny-hrob)
-- [Úvaly City Website](https://www.uvaly.cz/pavel-rosenbaum-statkar-z-uval/)
+- [Holocaust.cz: Bedřiška Rosenbaumová](https://www.holocaust.cz/en/database-of-victims/victim/118485-bedriska-rosenbaumova/)
+- [Forum24: Pavel Rosenbaum and Family](https://www.forum24.cz/pavel-rosenbaum-%E2%80%A01941-z-uval-a-jeho-po-80-letech-nalezeny-hrob)
+- [Úvaly Official Website: Pavel Rosenbaum](https://www.uvaly.cz/pavel-rosenbaum-statkar-z-uval/)
+
+This summary provides a comprehensive look at Bedřiška Rosenbaumová's life, family, and the tragic fate that befell her and her loved ones during the Holocaust.
