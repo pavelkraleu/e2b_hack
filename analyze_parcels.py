@@ -87,9 +87,12 @@ def calculate_value_score(parcel: Parcel) -> float:
 
     if parcel.podil_jmenovatel is not None and parcel.podil_jmenovatel > 2:
         return score
+    
+    if parcel.nazev_druhu_pozemku is not None and 'vodn' in parcel.nazev_druhu_pozemku.lower():
+        return score
 
     # Area score (normalized)
-    score += min(parcel.parcela_vymera / 1000, 1) * 0.4
+    score += min(parcel.vlastnena_vymera / 1000, 1) * 0.4
 
     # Location desirability
     location_score = 0.6 if 'praha' in parcel.nazev_obce.lower() else 0.3
