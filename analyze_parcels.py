@@ -85,6 +85,9 @@ class Parcel:
 def calculate_value_score(parcel: Parcel) -> float:
     score = 0.0
 
+    if parcel.podil_jmenovatel is not None and parcel.podil_jmenovatel > 2:
+        return score
+
     # Area score (normalized)
     score += min(parcel.parcela_vymera / 1000, 1) * 0.4
 
@@ -251,12 +254,12 @@ async def analyze_parcels(input_file: str, output_file: str):
     # Write results
     print(f"Writing results to {output_file}...", flush=True)
     with open(output_file, 'w', encoding='utf-8') as f:
-        for parcel in analyzed_parcels[:100]:  # Write only the first 100 results
+        for parcel in analyzed_parcels[:200]:  # Write only the first 100 results
             f.write(json.dumps(parcel, ensure_ascii=False) + '\n')
 
-    # Print top 50
-    print(f"\nTop 100 most valuable parcels with unique owners:")
-    for i, parcel in enumerate(analyzed_parcels[:100], 1):
+    # Print top 200
+    print(f"\nTop 200 most valuable parcels with unique owners:")
+    for i, parcel in enumerate(analyzed_parcels[:200], 1):
         print(f"{i}. Parcel {parcel['parcela_formatovano']} - Owner: {parcel['opsub_nazev']}")
         print(f"   Location: {parcel['nazev_obce']}, {parcel['nazev_okresu']}")
         print(f"   Area: {parcel['parcela_vymera']} m²")
