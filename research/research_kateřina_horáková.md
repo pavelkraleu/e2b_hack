@@ -1,39 +1,48 @@
 # Kateřina Horáková
-    
-    ## Last known information about the person
-    - Name: Kateřina Horáková
-    - Last known location: Spojené státy
-    - Property at: Milokošť 780791, č. 4343 
-    
-    ## Research Summary
-    - **Exact Person Found**: No
-      - **Exact Person Found Rating (1/10)**: 3
-      - **Reason for Exact Person Found**: The summary provides limited information about Kateřina Horáková with no specific identifiers apart from her ownership of a property at Milokošť 780791, č. 4343 and a broad birth year range (1890-1930). As there were no definitive personal details or family associations mentioned, it is difficult to confirm if any online references pertain to her specifically.
-    - **Years of Life**: 1890-1930 (possible birth range)
-    - **Family Members**: 
-    - **Fate**: Since she was potentially born between 1890 and 1930, she might have passed away given that she would be very old by now. However, there is no confirmed information about her fate.
-    
-    ---
-    
-    ## Detailed Research
-    # Summary of Kateřina Horáková
 
-## Biography
-Kateřina Horáková is a person reportedly from the United States who owns a property located at Milokošť 780791, č. 4343. The information suggests that she was born sometime between 1890 and 1930. This timeframe indicates that if she were alive today, she would be between 93 and 133 years old.
+## Last known information about the person
+- Name: Kateřina Horáková
+- Last known location: Spojené státy
+- Property at: Milokošť 780791, č. 4343 
 
-## Family Members
-Unfortunately, the available internet searches do not provide specific details about Kateřina Horáková's family members. Due to the commonality of her name, it's possible that multiple individuals may share the same name, complicating the identification of her relatives.
-
-## Other Relevant Information
-The details about Kateřina Horáková’s property ownership in Milokošť might suggest she has ties to this location, which could be significant in tracing any family connections or understanding her history.
-
-## Fate
-There is no specific information available from the internet searches regarding the fate of Kateřina Horáková. Given her estimated birth year range, it is possible that she is no longer living, but this cannot be confirmed without additional data.
-
-## Sources
-The summary is based on the provided Internet search results. No explicit links to sources were shared, so further research might be necessary to locate more comprehensive information.
+## Research Summary
+- **Exact Person Found**: No
+  - **Exact Person Found Rating (1/10)**: 0
+  - **Reason for Exact Person Found**: The summary provides information about three different individuals named Kateřina Horáková, each with distinct professional backgrounds. None of the information connects them to the last known location of 'Spojené státy' or the specific property at 'Milokošť 780791, č. 4343'. Thus, it is not possible to ascertain whether any of these individuals is the exact person in question.
+- **Years of Life**: 
+- **Family Members**: 
+- **Fate**: Unknown
 
 ---
 
-**Note:** This summary is based exclusively on the limited and potentially non-specific data from the Internet searches provided. Additional research using precise identifiers such as birth records, property deeds, or obituaries may yield more detailed information about Kateřina Horáková and her family.
+## Detailed Research
+# Kateřina Horáková: A Comprehensive Overview
+
+## Brief Biography
+Based on the available information from various sources, there are multiple individuals named Kateřina Horáková, each with distinct professional backgrounds:
+
+1. **Media Professional**: One Kateřina Horáková studied at the Faculty of Arts at Charles University in Prague and has a career in media, working in both print and television. When not engaged in her professional duties, she enjoys playing the cajon, painting, and reading. [Source](https://portal.rozhlas.cz/katerina-horakova-5200893).
+
+2. **Physiotherapist**: Another Kateřina Horáková is a physiotherapist operating a private practice in Kosmonosy, offering services such as kinesiotaping, postoperative therapy, and sport physiotherapy. [Source](https://www.fyzioterapeutka.eu/).
+
+3. **Project Manager**: A third individual, Ing. Kateřina Horáková, serves as a project manager at the Diecézní charita ostravsko-opavská. [Source](https://www.dchoo.charita.cz/adresar/?p=katerina-horakova).
+
+## Family Members
+The provided internet searches do not contain specific information about the family members of any of these individuals named Kateřina Horáková. Therefore, no details about her family can be confirmed from the sources.
+
+## Other Relevant Information
+- The media professional Kateřina Horáková is associated with Český rozhlas, a Czech public radio broadcaster.
+- The physiotherapist Kateřina Horáková's practice is located at Jelínkova 1248, Kosmonosy, and she can be contacted via phone at +420 604 870 250.
+- The project manager Kateřina Horáková is linked to a charitable organization focused on social services, underlining her role in social welfare.
+
+## Fate of the Person
+There is no information from the sources provided that indicates the fate or current status of any of the individuals named Kateřina Horáková.
+
+## Conclusion
+The identity of the Kateřina Horáková relevant to the property at Milokošť 780791, č. 4343 cannot be determined based on the available data. Further research or direct inquiries might be required to resolve this matter.
+
+### Relevant Sources
+- [Český Rozhlas - Kateřina Horáková](https://portal.rozhlas.cz/katerina-horakova-5200893)
+- [Fyzioterapeutická ambulance Kosmonosy](https://www.fyzioterapeutka.eu/)
+- [Diecézní charita ostravsko-opavská](https://www.dchoo.charita.cz/adresar/?p=katerina-horakova)
     

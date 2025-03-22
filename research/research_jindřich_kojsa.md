@@ -1,37 +1,41 @@
 # Jindřich Kojsa
-    
-    ## Last known information about the person
-    - Name: Jindřich Kojsa
-    - Last known location: Raková 8, 76312 Zádveřice-Raková
-    - Property at: Zádveřice 789747, č. 1707/27 
-    
-    ## Research Summary
-    - **Exact Person Found**: No
-      - **Exact Person Found Rating (1/10)**: 2
-      - **Reason for Exact Person Found**: The Summary does not provide enough unique details to definitively identify Jindřich Kojsa. There is no specific information on his life events, family members, or any significant contributions that might match other known records. The only information matching our query is an address and a property location, which is not sufficient to confirm the identity of the person in question given the lack of additional corroborating details.
-    - **Years of Life**: Unknown
-    - **Family Members**: 
-    - **Fate**: Unknown
-    
-    ---
-    
-    ## Detailed Research
-    ## Jindřich Kojsa: Summary
 
-### Brief Biography
-Jindřich Kojsa is known to have resided in the area of Raková 8, 76312 Zádveřice-Raková, Czech Republic. He also owned a property located at Zádveřice, with the parcel number 789747, č. 1707/27. Based on available information, he was born approximately between 1890 and 1930. The details around his life are limited, and it is unclear what his occupation or significant life events might have been.
+## Last known information about the person
+- Name: Jindřich Kojsa
+- Last known location: Raková 8, 76312 Zádveřice-Raková
+- Property at: Zádveřice 789747, č. 1707/27 
 
-### Family Members
-The available information from the internet searches does not specify any family members related to Jindřich Kojsa. Without further details, it is difficult to ascertain his immediate or extended family. Additional research or local records might be necessary to identify any living relatives or descendants.
+## Research Summary
+- **Exact Person Found**: No
+  - **Exact Person Found Rating (1/10)**: 2
+  - **Reason for Exact Person Found**: The search did not return substantial information specifically about Jindřich Kojsa. The property details match, but there is no additional information to verify his identity or life, such as professional background or family ties.
+- **Years of Life**: 
+- **Family Members**: 
+- **Fate**: 
 
-### Other Relevant Information
-There is no additional relevant information provided in the internet searches regarding Jindřich Kojsa’s activities, contributions, or personal interests. The primary focus is on his residential address and property ownership.
+---
 
-### Fate of the Person
-The fate of Jindřich Kojsa is not documented in the available internet searches. There is no information regarding his death or any subsequent events related to his life or property. It remains uncertain whether he is still living or if he has passed away.
+## Detailed Research
+```markdown
+# Jindřich Kojsa: Summary
 
-### Sources
-As the information provided is based on internet searches without specific sources cited, it is recommended to consult local historical records or property registries in Zádveřice-Raková for more detailed information.
+## Brief Biography
+The information provided from the internet searches does not give a direct biography for Jindřich Kojsa. There is a mention of a property associated with the name Jindřich Kojsa located at Zádveřice 789747, č. 1707/27, and an address in Raková 8, 76312 Zádveřice-Raková. The person was born approximately between 1890 and 1930. However, there is no detailed information on his profession, life accomplishments, or personal history.
 
-For further inquiries or more detailed research, consider reaching out to local historians or municipal offices in Zádveřice-Raková.
+## Family Members
+The internet searches did not yield any specific information about Jindřich Kojsa's family members. Consequently, no names or details of potential relatives are available from the data provided.
+
+## Any Other Relevant Information
+There is no additional relevant information specifically about Jindřich Kojsa from the searches. The sources mentioned do not seem to directly connect to him, but rather to other individuals or topics.
+
+## Fate of the Person
+The fate of Jindřich Kojsa is not documented in the information provided. There is no mention of whether he is still alive or any circumstances regarding his death if applicable.
+
+## Links to Relevant Sources
+- [Prof. MUDr. Jindřich Matiegka on esbirky.cz](https://www.esbirky.cz/predmet/191821)
+- [Adolf Jindřich on rejstrik-firem.kurzy.cz](https://rejstrik-firem.kurzy.cz/osoba/2630836/)
+
+Please note that these links lead to pages that discuss other individuals with the name "Jindřich" but do not specifically pertain to Jindřich Kojsa.
+```
+
     

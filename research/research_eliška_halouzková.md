@@ -1,40 +1,51 @@
 # Eliška Halouzková
-    
-    ## Last known information about the person
-    - Name: Eliška Halouzková
-    - Last known location: Pěnčín 178
-    - Property at: Pěnčín na Moravě 719200, č. 2077/1 
-    
-    ## Research Summary
-    - **Exact Person Found**: No
-      - **Exact Person Found Rating (1/10)**: 2
-      - **Reason for Exact Person Found**: The summary provides information about an Eliška Halouzková associated with Brno, who is a student and involved in various activities like ultimate frisbee. However, there is no mention of Pěnčín 178, Pěnčín na Moravě 719200, or a property at č. 2077/1, which are crucial identifiers. Thus, we cannot conclude that this is the same person as the one in the original description.
-    - **Years of Life**: Not provided
-    - **Family Members**: 
-    - **Fate**: No information provided
-    
-    ---
-    
-    ## Detailed Research
-    ```markdown
-# Eliška Halouzková
+
+## Last known information about the person
+- Name: Eliška Halouzková
+- Last known location: Pěnčín 178
+- Property at: Pěnčín na Moravě 719200, č. 2077/1 
+
+## Research Summary
+- **Exact Person Found**: No
+  - **Exact Person Found Rating (1/10)**: 3
+  - **Reason for Exact Person Found**: The summary primarily discusses an Eliška Halouzková who is a student at Masaryk University and involved in various student activities. The historical context and details about property ownership in Pěnčín—which likely require an older age than a current university student—suggest that this is not the exact person connected to property Pěnčín na Moravě 719200, č. 2077/1. There might be multiple individuals with the same name, as indicated by the timeline mismatch and different contexts.
+- **Years of Life**: Unknown
+- **Family Members**: 
+- **Fate**: Currently, there is no specific information about the historical Eliška Halouzková's fate. The summary focuses on a current university student rather than a historical figure associated with property ownership.
+
+---
+
+## Detailed Research
+```markdown
+# Eliška Halouzková: Summary
 
 ## Brief Biography
-Eliška Halouzková is associated with Brno and is a student at Masaryk University, where she studies physical education and natural history. She is actively involved in sports, particularly ultimate frisbee, and enjoys various other athletic activities. In her leisure time, she appreciates reading, singing, and indulging in good coffee and Indian cuisine.
+Eliška Halouzková is associated with the town of Pěnčín and is known to own property at Pěnčín na Moravě 719200, č. 2077/1. Based on available data, she was born between 1890 and 1930. However, it is crucial to note that information online may pertain to multiple individuals with the same name. An Eliška Halouzková is also recorded as a university student, studying at Masaryk University and participating in activities such as ultimate frisbee.
+
+- **Current Role & Education**: Eliška Halouzková is a student at Masaryk University, where she studies physical education and biology. She is involved in extracurricular activities, including serving as a camp leader and playing ultimate frisbee with the team "Outsisterz."
+
+- **Interests**: She enjoys sports, reading, and singing, with a particular fondness for Indian cuisine and coffee.
+
+- **Contact Information**: An email is available for an Eliška Halouzková at Masaryk University: [508183@mail.muni.cz](mailto:508183@mail.muni.cz).
+
+### Source References:
+- [Masaryk University Profile](https://www.muni.cz/en/people/508183-eliska-halouzkova)
+- [Camp Leadership Page](https://taborybrodekupv.cz/vedouci/)
+- [Ultimate Frisbee Player Profile](https://eucs-schedule.ultimatefederation.eu/?view=playercard&player=9151)
 
 ## Family Members
-The available information does not provide specific details about Eliška Halouzková's family members. The focus is primarily on her role and activities.
+From the data gathered, there is no explicit information about Eliška Halouzková's family members. The focus is largely on her educational and extracurricular activities.
 
 ## Other Relevant Information
-Eliška Halouzková is involved as a leader at camps, as mentioned on the [Tábory Brodek u Přerova website](https://taborybrodekupv.cz/vedouci/). Additionally, she is a member of the ultimate frisbee team "Outsisterz," as noted in her player profile on the [EUCS Schedule website](https://eucs-schedule.ultimatefederation.eu/?view=playercard&player=9151).
+- **Location**: While she is associated with property in Pěnčín, she currently resides in Brno for her university studies.
+- **Extracurricular Activities**: Besides her studies, she is actively involved in sports, particularly ultimate frisbee, and engages in camp leadership roles.
 
 ## Fate of the Person
-There is no information provided regarding the fate of Eliška Halouzková. The available data focuses on her current activities and interests.
+There is no specific information available about the fate of Eliška Halouzková. The data suggests she is currently a student and actively engaged in various university-related activities.
 
-## Relevant Links
-- [Tábory Brodek u Přerova - Camp Leaders](https://taborybrodekupv.cz/vedouci/)
-- [EUCS Schedule - Eliška Halouzková Player Profile](https://eucs-schedule.ultimatefederation.eu/?view=playercard&player=9151)
+---
+
+This summary is based solely on the information extracted from the cited sources and does not include any external assumptions or data.
 ```
 
-This summary provides an overview based on the information found in the provided sources. Further research may be needed to gather more comprehensive details about family members and the fate of the person.
     
