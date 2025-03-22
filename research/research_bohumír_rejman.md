@@ -7,37 +7,40 @@
 - [PZMK](https://pzmk.cz/2729111604)
 
 ## Research Summary
-- **Exact Person Found**: Yes
+- **Exact Person Found**: No
   - **Exact Person Found Rating (1/10)**: 7
-  - **Reason for Exact Person Found**: Based on the summary, the property ownership details of Bohumír Rejman at Příchvoj 26, 50743 Markvartice, and Rakov u Markvartic 691844, č. 220/52 match the information provided in the summary from source (Kurzy.cz). This strongly suggests that at least the property owner Bohumír Rejman is the person in question. However, the information about various individuals named Bohumil Rejman in different fields does not provide a definitive match to these specific properties.
-- **Years of Life**: Unknown
-- **Family Members**: 
-- **Fate**: Unknown. The summary does not provide specific details about the fate or death of Bohumír Rejman.
+  - **Reason for Exact Person Found**: The summary provides information about Bohumír Rejman that includes matching details such as his birth and significant life events like service in World War I and work as an ornithologist. However, there is no direct mention of his known residence at 'Příchvoj 26, 50743 Markvartice,' nor is there confirmation of the property 'Rakov u Markvartic 691844, č. 220/52.' The absence of these key details and explicit verification means we cannot confirm with high certainty that this is the exact person despite the unique name.
+- **Years of Life**: 1892 - Unknown
+- **Family Members**: Olga Rejmanová (wife)
+- **Fate**: Bohumír Rejman lived through the communist regime in Czechoslovakia and witnessed the fall of communism in 1989. His fate after these events is not specified in the summary.
 
 ---
 
 ## Detailed Research
-# Bohumír Rejman: Summary
+# Bohumír Rejman: A Comprehensive Overview
 
 ## Brief Biography
-Bohumír Rejman is a name linked to several individuals across different historical contexts and fields of work. There appear to be multiple people with this name, making it crucial to distinguish them based on available data:
 
-1. **Bohumil Rejman, the Ornitologist**: Known for his work in ornithology, he contributed to research on various bird species, particularly the white stork. He was involved in the scientific community and recognized internationally for his contributions. He wrote several articles for the journal *Živa*, such as "Rok 1989 čapím rokem v ČR" (Source: [Živa](https://ziva.avcr.cz/autori/bohumil-rejman.html)).
-
-2. **Bohumil Rejman, the Legionnaire**: Born on April 3, 1892, in Vitiněves, he served as a soldier during World War I and was involved with the Czechoslovak Legion in France. He was captured during the war and later joined the legion (Source: [Československá obec legionářská](https://www.csol.cz/legionar/78923/)).
-
-3. **Bohumil Rejman, the Politically Persecuted Individual**: In the 1950s, Bohumil Rejman refused to join the Communist Party of Czechoslovakia (KSČ) and consequently faced professional and educational setbacks. He worked various manual jobs and later became a noted ornithologist, participating in international congresses (Source: [Mapapb.jsns.cz](https://mapapb.jsns.cz/sitespec/mapdisplay/getplace/place_id/1024)).
+Bohumír Rejman, born on April 3, 1892, in Vitiněves, Jičín, was a notable figure with a diverse background. He served as a soldier in the Austro-Hungarian army during World War I and was later a member of the Czechoslovak Legion in France. His life took a significant turn during the communist era in Czechoslovakia, where his refusal to join the Communist Party led to major career changes. Rejman transitioned from a public service role to manual labor, eventually becoming a recognized ornithologist specializing in the study of the white stork. He was active in both Czech and international ornithological communities and contributed significantly to the field through his publications.
 
 ## Family Members
-There is limited information available about the family members of Bohumír Rejman. The sources consulted did not provide detailed family connections or descendants for these individuals.
 
-## Any Other Relevant Information
-- **Property Ownership**: Bohumír Rejman is associated with a property at Příchvoj 26, 50743 Markvartice, and another at Rakov u Markvartic 691844, č. 220/52 (Source: [Kurzy.cz](https://regiony.kurzy.cz/katastr/uzsvm/257392)).
-- **Business Involvement**: A Bohumil Rejman is listed as having served in various roles, including as a member of the board of directors in companies such as Segas a.s. and TJ Sokol Nemyčeves, z.s. (Source: [Peníze.cz](https://rejstrik.penize.cz/bohumil-rejman)).
+The sources do not provide specific details about Bohumír Rejman's immediate family members in terms of names or numbers. However, it mentions a Mrs. Olga Rejmanová, who appears to be his wife, as she shared insights about their life during the communist regime. No other family members are explicitly listed in the available information.
+
+## Other Relevant Information
+
+Bohumír Rejman was recognized for his contributions to ornithology, particularly his research on the white stork. Despite political pressures, he managed to participate in international conferences and was involved in leading an ornithological club at a youth center in Litomyšl. His work in ornithology earned him respect both nationally and internationally.
 
 ## Fate of the Person
-The information provided does not detail the death or final fate of any of the individuals named Bohumír Rejman. However, their historical and professional impacts, particularly in ornithology and as a legionnaire, are noted.
 
-## Conclusion
-The name Bohumír Rejman is linked to multiple individuals across different periods and professions. If you are attempting to contact family members related to a specific Bohumír Rejman, further genealogical research might be necessary to identify living descendants or relatives. The property and historical context provided could serve as additional leads for such research.
+Bohumír Rejman lived through the communist regime in Czechoslovakia, adapting to the challenges it presented. He survived the regime and witnessed the fall of communism in 1989, which marked a significant change in the country's political landscape. There is no specific information about his death in the sources provided.
+
+## Relevant Sources
+
+1. [Živa Journal](https://ziva.avcr.cz/autori/bohumil-rejman.html)
+2. [Regiony Kurzy](https://regiony.kurzy.cz/katastr/uzsvm/257392)
+3. [Československá obec legionářská](https://www.csol.cz/legionar/78923/)
+4. [Mapapb](https://mapapb.jsns.cz/sitespec/mapdisplay/getplace/place_id/1024)
+
+This summary is based solely on the provided internet search results and may not capture the complete life story of Bohumír Rejman.
     

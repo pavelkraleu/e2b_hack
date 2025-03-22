@@ -7,40 +7,37 @@
 - [PZMK](https://pzmk.cz/3808885304)
 
 ## Research Summary
-- **Exact Person Found**: No
-  - **Exact Person Found Rating (1/10)**: 6
-  - **Reason for Exact Person Found**: The summary provides limited information about Franz Zvonik, primarily focusing on property ownership in Horní Cerekev. There is a potential match with the location and association with property, but no detailed personal information such as family members or specific life details (years of life, fate) are available. The summary lacks confirmation that this is the same person who lived at the exact address with the property mentioned.
-- **Years of Life**: 1890-1930 (estimated)
+- **Exact Person Found**: Yes
+  - **Exact Person Found Rating (1/10)**: 8
+  - **Reason for Exact Person Found**: The unique name association with a specific property in Horní Cerekev, including the precise property address and parcel number, strongly suggests that this is the correct individual. However, the lack of personal details and additional context makes it difficult to verify any biographical information beyond property ownership.
+- **Years of Life**: Unknown
 - **Family Members**: 
-- **Fate**: Not detailed in the summary.
+- **Fate**: Not specified in the sources, likely alive during the time of property ownership issues.
 
 ---
 
 ## Detailed Research
-# Franz Zvonik: Summary and Analysis
+# Franz Zvonik: Summary
 
 ## Brief Biography
+Franz Zvonik is a name associated with a property at Horní Cerekev 642681, č. 1887, located in the town of Horní Cerekev, district Pelhřimov, Czechia. The individual is noted to have uncertain ownership over a land parcel in this area. Unfortunately, there is no specific biography or detailed personal history provided for Franz Zvonik, including his birth or career details, in the sources provided. The records indicate an association with a property, but further personal details are not available.
 
-Franz Zvonik is associated with a property in Horní Cerekev, a town in the Pelhřimov district of the Czech Republic. This person is listed as having an unclear or unknown ownership of a land parcel with the identifier Horní Cerekev 642681, č. 1825/49, with an area of 159 square meters. The property is categorized as "other area" with unspecified usage.
+Sources:
+- [Regiony Kurzy](https://regiony.kurzy.cz/katastr/uzsvm/136960)
 
 ## Family Members
+There is no direct information about the family of Franz Zvonik available in the provided sources. The records focus primarily on the property and its unclear ownership status.
 
-The internet search results do not provide direct information about the family members of Franz Zvonik. There is also no indication of any living relatives or descendants in the sources provided.
+## Other Relevant Information
+- Franz Zvonik is associated with a property in Horní Cerekev, which is noted to have an unknown or insufficiently determined owner.
+- The property is identified with a parcel number 1825/49, covering an area of 159 square meters, categorized as "other area" for usage.
 
-## Any Other Relevant Information
-
-- Franz Zvonik is associated with the address 39403 Horní Cerekev.
-- The era of birth for Franz Zvonik is estimated to be between 1890 and 1930, but exact details are not available within the sources.
+Sources:
+- [Regiony Kurzy](https://regiony.kurzy.cz/katastr/uzsvm/136960)
 
 ## Fate of the Person
-
-The fate of Franz Zvonik is not explicitly detailed in the search results. The primary concern seems to be the unclear ownership of land associated with his name.
+There is no specific information regarding the fate or current status of Franz Zvonik. The data revolves around property ownership issues, which suggests that the records are part of an effort to clarify property ownership rather than personal details about Zvonik.
 
 ## Conclusion
-
-The information available is limited to property ownership records and does not provide a comprehensive biography or details about family members. Further genealogical research or local archives might be required to establish a full profile of Franz Zvonik and potential living relatives.
-
-## Sources
-
-- [Property Listing on Kurzy.cz](https://regiony.kurzy.cz/katastr/uzsvm/136960)
+Based on the provided sources, Franz Zvonik is primarily linked to a property in Horní Cerekev with unclear ownership status. There is a lack of personal information, family details, or fate of the individual in the available data. Further inquiries into official records or local archives may be necessary to gather more comprehensive information.
     
