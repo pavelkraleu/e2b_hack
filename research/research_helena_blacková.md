@@ -6,34 +6,36 @@
 - Property at: Holešovice, č. 994 
 
 ## Research Summary
-- **Exact Person Found**: **No**
-  - **Exact Person Found Rating (1/10)**: **1**
-  - **Reason for Exact Person Found**: **The summary provides minimal information that could potentially relate to Helena Blacková. It mentions that she was from Omaha and owned property in Holešovice, č. 994, but does not provide concrete evidence or detailed information about her life or family. The sources cited do not relate to her or provide relevant data, further indicating a lack of concrete connection to verify her identity or details.**
-- **Years of Life**: **1900-1950**
-- **Family Members**: ****
-- **Fate**: **Unknown**
+- **Exact Person Found**: No
+  - **Exact Person Found Rating (1/10)**: 2
+  - **Reason for Exact Person Found**: The available search results refer to various unrelated individuals and items that share a similar name to Helena Blacková, but none provide specific information about her ownership of a property in Holešovice or her residence in Omaha, United States. The information does match the place names but lacks personal details, family connections, or an accurate portrayal of her life and fate.
+- **Years of Life**: c. 1900-1950
+- **Family Members**: 
+- **Fate**: Unknown
 
 ---
 
 ## Detailed Research
-Based on the provided internet searches, here is a comprehensive summary of Helena Blacková:
+# Summary of Helena Blacková
 
-### Brief Biography
-The available internet searches do not provide a detailed biography of Helena Blacková. However, it is noted that she was from Omaha, United States, and owned a property in Holešovice, identified as č. 994. The period during which she lived is approximately between 1900 and 1950.
+## Brief Biography
+Helena Blacková was a person reportedly from Omaha, United States, who owned a property at Holešovice, č. 994. She lived approximately between 1900 and 1950. The information available is sparse, and it is important to note that some results might pertain to other individuals with similar names.
 
-### Family Members
-The searches do not explicitly mention any family members related to Helena Blacková. The information about specific family connections is not available within the given data.
+## Family Members
+No specific family members of Helena Blacková were identified in the available search results.
 
-### Other Relevant Information
-There is no additional relevant information about Helena Blacková provided in the internet searches. The sources include unrelated information about other individuals named Helena or similar names, such as Helena Zeťová, a Czech singer, and Bellatrix Lestrangeová, a fictional character from the Harry Potter series, neither of whom are relevant to Helena Blacková.
+## Other Relevant Information
+- The sources mainly cover individuals with similar names, such as Helena Zeťová, a Czech singer, or Helena Balážová, a Slovak actress. However, these individuals are unrelated to Helena Blacková.
+- There are references to products like 'Helena Black' shoes, which are unrelated to the individual of interest.
+- The search results also include fictional characters from literature, such as Bellatrix Lestrange (née Blacková) from the "Harry Potter" series, who are not connected to Helena Blacková.
 
-### Fate of the Person
-The fate of Helena Blacková is not discussed in the provided internet searches. Details about her life events, including her death, are not available.
+## Fate of the Person
+There is no specific information on the fate of Helena Blacková in the available search results.
 
-### Sources
-- [Source 1](https://dspace.jcu.cz/bitstream/handle/20.500.14390/39370/posudek_Malina_BP_Blazkova.pdf?sequence=3&isAllowed=y) (does not contain information relevant to Helena Blacková)
-- [Source 2](https://www.markiza.sk/soubiz/clanok/942458-zomrela-ceska-spevacka-helena-zetova-44-otec-ju-nasiel-lezat-pod-oknami) (contains information about Helena Zeťová, not Helena Blacková)
-- [Source 3](https://jodisshoes.dk/products/helena-black?srsltid=AfmBOoqSBAMz24osaUK_0PA28Z0C9XRkkpjOnMDpR2VLSPBT099sNMEz) (contains information about a product named Helena Black, not a person)
-- [Source 4](https://harrypotter.fandom.com/cs/wiki/Bellatrix_Lestrangeov%C3%A1) (contains information about Bellatrix Lestrangeová, a fictional character)
+## Sources
+- [Markiza - Helena Zeťová](https://www.markiza.sk/soubiz/clanok/942458-zomrela-ceska-spevacka-helena-zetova-44-otec-ju-nasiel-lezat-pod-oknami)
+- [CNN Prima - Helena Balážová](https://cnn.iprima.cz/zemrela-helena-balazova-465778)
+- [Harry Potter Wiki - Bellatrix Lestrangeová](https://harrypotter.fandom.com/cs/wiki/Bellatrix_Lestrangeov%C3%A1)
+- [JoDis Shoes - Helena Black](https://jodisshoes.dk/products/helena-black?srsltid=AfmBOopORpkmRWyjGL_YKfybym2gZH_pRuLZyaJTE8XMrwciif5H23rO)
 
-The search results do not provide sufficient information to identify family members or further biographical details about Helena Blacková. Additional research or alternative sources may be necessary to obtain more comprehensive information on this individual and her family.
+The information provided does not conclusively pertain to the Helena Blacková of interest, and further investigation may be necessary to locate family members or additional details about her life and property.
