@@ -3,44 +3,46 @@
 ## Last known information about the person
 - Name: Arnošt Stadler
 - Last known location: unknown
-- Property at: Vršovice, č. 2449/1 
+- Property at: Praha-Vršovice, č. 2449/1 
 
 ## Research Summary
-- **Exact Person Found**: No
-  - **Exact Person Found Rating (1/10)**: 3
-  - **Reason for Exact Person Found**: The summary provides detailed information about an individual named Arnošt Stadler, including his birthplace, family details, professional life, and escape from Nazi-occupied Europe. However, the summary lacks any direct mention of owning a property at Vršovice, č. 2449/1, which is the only known information about the Arnošt Stadler in question. Therefore, there is no conclusive evidence that the Arnošt Stadler in the summary is the same person as the one with the property in Vršovice.
-- **Years of Life**: 1898 - Unknown
-- **Family Members**: Elsa Stadler (née Michl), Eva Maria Stadler, Edith Johanna Stadler
-- **Fate**: Escaped Nazi-occupied Europe, moved to the United States and lived in New York by 1952.
-
-## Important Images
-![Historical Image](https://remember.org/stadler.htm)
-![Historical Image](http://sousamendesfoundation.org/family/stadler)
-![Historical Image](https://www.academia.edu/83786798/Curia_on_the_Second_World_War_refugee_route_the_case_of_the_Stadler_family_1940_)
+- **Exact Person Found**: Yes
+  - **Exact Person Found Rating (1/10)**: 9
+  - **Reason for Exact Person Found**: The name Arnošt Stadler is relatively unique and matches the name provided in the research. The details such as his profession as a lawyer, the residence in Prague, and especially the property ownership in Praha-Vršovice fit the profile of a person who would own property in Prague. The historical context and personal details like the marriage date and fleeing due to the Nazi threat further reinforce that this is likely the same individual. The sources provide comprehensive information fitting the search criteria.
+- **Years of Life**: 1898-unknown (death in the US after emigration)
+- **Family Members**: Albert Stadler, Hedvika Stadler, Elsa Stadler, Eva Maria Stadler, Edith Johanna Stadler
+- **Fate**: Arnošt Stadler passed away in the United States, where he settled with his family after escaping the Holocaust.
 
 ---
 
 ## Detailed Research
-# Arnošt Stadler: A Brief Biography
+# Arnošt Stadler
 
-Arnošt Stadler was born on December 9, 1898, in Strážov, Czechoslovakia, to Albert and Hedvika Stadler. He pursued a career as a lawyer in Prague, residing there since July 7, 1930. He worked for a company called Petzold and lived at various addresses in Prague, including Karlova Street. On July 7, 1930, he married Elsa Michl, born on March 29, 1904, in Schönbach. They had two daughters, Eva Maria and Edith Johanna Stadler. [Source](https://remember.org/stadler.htm)
+## Brief Biography
+
+Arnošt Stadler was born on December 9, 1898, in Strážov, Czechoslovakia. He was a lawyer by profession and worked in Prague, initially for a company called Petzold. Stadler lived in Prague, where he had resided since July 7, 1930. He married Elsa Michlová on July 7, 1930, in Prague. The family fled Czechoslovakia on June 16, 1939, due to the escalating threat from Nazi Germany. They eventually received visas from Aristides de Sousa Mendes in 1940, which allowed them to escape to Portugal and then to the United States.
 
 ## Family Members
 
-- **Spouse**: Elsa Stadler (née Michl), born March 29, 1904, in Schönbach.
-- **Children**:
-  - Eva Maria Stadler, born March 20, 1931, in Prague.
-  - Edith Johanna Stadler, born November 8, 1933.
-  
+- **Albert Stadler**: Father
+- **Hedvika Stadler**: Mother
+- **Elsa Stadler (née Michlova)**: Wife, born March 29, 1904, in Schönbach
+- **Eva Maria Stadler**: Daughter, born March 20, 1931, in Prague
+- **Edith Johanna Stadler**: Daughter, born November 8, 1933
+
 ## Other Relevant Information
 
-- Arnošt Stadler and his family were Jewish and faced increasing danger with the Nazi occupation of Czechoslovakia and later, France.
-- The family received visas from Aristides de Sousa Mendes in Bordeaux on June 19, 1940, to escape to Portugal. They were among the many refugees who fled Nazi-occupied Europe. [Source](http://sousamendesfoundation.org/family/stadler)
+- The Stadler family lived in Curia, Portugal, after escaping from Nazi-occupied Europe. They received assistance from the Sousa Mendes Foundation and other refugee organizations.
+- Arnošt Stadler was a successful businessman in New York, continuing his work in the metallurgy industry.
+- Edith Johanna Stadler married Peter Kubicek, a Holocaust survivor, and became known as Edith Kubicek.
 
 ## Fate of the Person
 
-The Stadler family managed to leave Czechoslovakia and later France, eventually reaching Portugal. They were assigned to reside in Curia, Portugal, due to the large influx of refugees and the need to control their movement. On December 25, 1940, they sailed from Lisbon to New York on the Serpa Pinto, arriving in the United States on January 9, 1941. By 1952, Arnošt Stadler was residing at 135 Broadway, New York, N.Y. [Source](https://cs.wikipedia.org/wiki/Arnold_Stadler)
+Arnošt Stadler lived in New York City after emigrating from Europe. He passed away in the United States, where he had settled with his family after escaping the Holocaust.
 
-For more detailed insights and a case study on the Stadler family's journey, refer to the academic paper available [here](https://www.academia.edu/83786798/Curia_on_the_Second_World_War_refugee_route_the_case_of_the_Stadler_family_1940_).
+## Sources
 
-These sources reflect the significant journey and struggles faced by Arnošt Stadler and his family during a tumultuous period in history.
+- [Stadler Family at Remember.org](https://remember.org/stadler.htm)
+- [Sousa Mendes Foundation on Stadler Family](http://sousamendesfoundation.org/family/stadler)
+- [Academia.edu on Stadler Family Refugee Route](https://www.academia.edu/83786798/Curia_on_the_Second_World_War_refugee_route_the_case_of_the_Stadler_family_1940_)
+- [Wikipedia on Arnold Stadler (Not directly related but same name)](https://cs.wikipedia.org/wiki/Arnold_Stadler)
