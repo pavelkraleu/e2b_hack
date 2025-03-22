@@ -1,22 +1,22 @@
 # Alois Nop
     
-    ## Last known information about the person
-    - Name: Alois Nop
-    - Last known location: Svatovítská 683, 16000 Praha-Dejvice
-    - Property at: Tovačov 768014, č. 2680/74 
-    
-    ## Research Summary
-    - **Exact Person Found**: Yes
-      - **Exact Person Found Rating (1/10)**: 8
-      - **Reason for Exact Person Found**: The information in the summary matches closely with the known locations associated with Alois Nop: Svatovítská 683, 16000 Praha-Dejvice and property at Tovačov 768014, č. 2680/74. Given the uniqueness of these locations being connected to the name Alois Nop, it is highly likely that the summary pertains to the exact person in question, despite the lack of further detailed biographical information.
-    - **Years of Life**: 1890-1930 (estimated birth year range)
-    - **Family Members**: 
-    - **Fate**: Unknown, as there is no data on whether he is deceased or alive.
-    
-    ---
-    
-    ## Detailed Research
-    # Summary of Alois Nop
+## Last known information about the person
+- Name: Alois Nop
+- Last known location: Svatovítská 683, 16000 Praha-Dejvice
+- Property at: Tovačov 768014, č. 2680/74 
+
+## Research Summary
+- **Exact Person Found**: Yes
+  - **Exact Person Found Rating (1/10)**: 8
+  - **Reason for Exact Person Found**: The information in the summary matches closely with the known locations associated with Alois Nop: Svatovítská 683, 16000 Praha-Dejvice and property at Tovačov 768014, č. 2680/74. Given the uniqueness of these locations being connected to the name Alois Nop, it is highly likely that the summary pertains to the exact person in question, despite the lack of further detailed biographical information.
+- **Years of Life**: 1890-1930 (estimated birth year range)
+- **Family Members**: 
+- **Fate**: Unknown, as there is no data on whether he is deceased or alive.
+
+---
+
+## Detailed Research
+# Summary of Alois Nop
 
 ## Brief Biography
 Alois Nop was an individual associated with two locations: Svatovítská 683, 16000 Praha-Dejvice, and a property in Tovačov, specifically at 768014, č. 2680/74. He was born approximately between the years 1890 and 1930. Due to the lack of specific birth records or detailed biographical data found in the searches, the exact details of his early life, education, and career remain unclear.

@@ -1,65 +1,53 @@
 # Kateřina Slováčková
-    
-    ## Last known information about the person
-    - Name: Kateřina Slováčková
-    - Last known location: č.p. 234, Strážnice
-    - Property at: Strážnice na Moravě 756652, č. 6852/105 
-    
-    ## Research Summary
-    - **Exact Person Found**: No
-      - **Exact Person Found Rating (1/10)**: 2
-      - **Reason for Exact Person Found**: The Summary did not provide any information about a Kateřina Slováčková linked to living in č.p. 234, Strážnice or owning property at Strážnice na Moravě 756652, č. 6852/105. The individuals mentioned in the Summary are located elsewhere, involved in professional fields unrelated to the property in question (law and midwifery), and there is no mention of residency or property ownership in Strážnice.
-    - **Years of Life**: 
-    - **Family Members**: 
-    - **Fate**: 
-    
-    ---
-    
-    ## Detailed Research
-    Based on the information from the given sources, here is a comprehensive summary of Kateřina Slováčková:
+
+## Last known information about the person
+- Name: Kateřina Slováčková
+- Last known location: č.p. 234, Strážnice
+- Property at: Strážnice na Moravě 756652, č. 6852/105 
+
+## Research Summary
+- **Exact Person Found**: No
+  - **Exact Person Found Rating (1/10)**: 0
+  - **Reason for Exact Person Found**: The Summary lists two individuals named Kateřina Slováčková, but neither seems to fit the description of someone associated with č.p. 234, Strážnice, or the property at Strážnice na Moravě 756652, č. 6852/105, likely due to time discrepancies and locations. There is no clear match for a person potentially born between 1890 and 1930.
+- **Years of Life**: 
+- **Family Members**: 
+- **Fate**: 
+
+---
+
+## Detailed Research
+Based on the information from the provided internet searches, here is a comprehensive summary of Kateřina Slováčková:
 
 ## Biography
+There are multiple individuals named Kateřina Slováčková mentioned in the sources. However, none of them directly fit the profile of a person born between 1890 and 1930 from Strážnice. The following profiles were identified:
 
-Kateřina Slováčková is associated with two different profiles, indicating there might be more than one person with this name.
-
-1. **Kateřina Lasák Slováčková**:
-   - She is a senior attorney at Kocián Šolc Balaštík (KŠB), a law firm based in Prague. 
-   - She specializes in public procurement law, administrative proceedings, and contractual law. 
-   - Her educational background includes a law degree from Masaryk University in Brno, completed in 2009, and studies at the University of Wales, Aberystwyth in 2008.
-   - She has been a practicing attorney since 2014 and is a member of the Czech Bar Association.
-   - She is involved in lecturing on public procurement topics and has published works related to her field.
+1. **Kateřina Lasák Slováčková**: 
+   - She is a senior attorney at Kocián Šolc Balaštík (KŠB), specializing in public procurement, contract law, administrative proceedings, and litigation.
+   - She graduated from the Faculty of Law at Masaryk University in Brno in 2009 and has been an attorney since 2014.
+   - Her professional career is focused on legal advisory in public contracts and related areas.
    - [Source](https://www.ksb.cz/clenove-tymu/katerina-lasak-slovackova)
 
-2. **Kateřina Slováčková (born 1977)**:
-   - Born and raised in Třebíč, she later moved to Zlín.
-   - She studied to become a midwife at the Higher Medical School in Zlín and completed her studies in 1999.
-   - Worked at the Institute for the Care of Mother and Child in Prague-Podolí until 2004.
-   - She then moved to Zlín, where she continues her work as a midwife at the Tomáš Baťa Regional Hospital.
-   - In 2014, she established a private practice providing consultation and educational services in midwifery.
+2. **Bc. Kateřina Slováčková**:
+   - Born in 1977 in Prague, she is a midwife who has worked in various healthcare settings.
+   - She studied at the Higher Medical School in Zlín and the Faculty of Health Sciences at UP Olomouc.
+   - She is married to Roman and lives in Zlín.
    - [Source](http://www.rodime.cz/o-mne)
 
 ## Family Members
-
-- There is no direct mention of family members for Kateřina Lasák Slováčková from the data provided.
-
-- For the Kateřina Slováčková born in 1977:
-  - She is married to Roman Slováček.
-  - [Source](http://www.rodime.cz/o-mne)
+- For Bc. Kateřina Slováčková, her husband is named Roman.
+- No family information is available for Kateřina Lasák Slováčková or any other relevant family members associated with the property in Strážnice.
 
 ## Other Relevant Information
-
-- **Kateřina Lasák Slováčková** has published articles on changes in public procurement laws and has been involved in legal consultancy on significant projects, including those for ŠKODA AUTO and other notable companies.
-- **Kateřina Slováčková (born 1977)** has a focus on midwifery and has participated in continuous professional development through various courses and seminars.
+- Kateřina Lasák Slováčková is a member of the Czech Bar Association and the Association for Public Procurement.
+- Bc. Kateřina Slováčková has been involved in midwifery education and consultancy services since 2014.
 
 ## Fate of the Person
-
-- There is no specific information provided concerning the fate or current status of either person named Kateřina Slováčková in the sources.
+- There is no information provided about the fate or any property-related issues concerning either individual named Kateřina Slováčková.
 
 ## Conclusion
+The search did not yield information specific to a Kateřina Slováčková from Strážnice born between 1890 and 1930. Therefore, further research or alternative sources may be necessary to locate the correct individual or their descendants regarding the lost property.
 
-The information indicates that there are at least two individuals named Kateřina Slováčková with distinct professional backgrounds, one in law and the other in midwifery. Both profiles do not directly link to the historical property ownership in Strážnice, which may require further investigation to identify the correct individual related to the property in question. 
-
-For detailed reading, you can visit the following sources:
-- [KŠB Profile of Kateřina Lasák Slováčková](https://www.ksb.cz/clenove-tymu/katerina-lasak-slovackova)
-- [Personal Page of Kateřina Slováčková (Midwife)](http://www.rodime.cz/o-mne)
+For more information, you can visit the following resources:
+- [Kateřina Lasák Slováčková at KŠB](https://www.ksb.cz/clenove-tymu/katerina-lasak-slovackova)
+- [Bc. Kateřina Slováčková's Profile](http://www.rodime.cz/o-mne)
     
