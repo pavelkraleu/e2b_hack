@@ -5,7 +5,8 @@
   "type": "module",
   "main": "index.ts",
   "scripts": {
-    "start": "tsx index.ts"
+    "start": "tsx index.ts",
+    "local": "tsx local.ts"
   },
   "dependencies": {
     "@e2b/cli": "^1.2.3",
@@ -13,7 +14,8 @@
     "dotenv": "^16.4.1"
   },
   "devDependencies": {
-    "tsx": "^4.7.0",
-    "typescript": "^5.3.3"
+    "tsx": "^4.7.1",
+    "typescript": "^5.3.3",
+    "@types/node": "^20.11.24"
   }
 }

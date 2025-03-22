@@ -12,9 +12,9 @@ async function analyzeParcels(filePath?: string) {
   // Create a new sandbox with environment variables
   const sandbox = await Sandbox.create(templateId, {
     apiKey: process.env.E2B_API_KEY,
-    // envs: {
-    //   OPENAI_API_KEY: process.env.OPENAI_API_KEY || "",
-    // },
+    envs: {
+      OPENAI_API_KEY: process.env.OPENAI_API_KEY || "",
+    },
   });
 
   try {
@@ -23,8 +23,10 @@ async function analyzeParcels(filePath?: string) {
     await sandbox.files.write("/home/user/analyze_parcels.py", scriptContent);
 
     // // Copy the input file
-    // const inputContent = fs.readFileSync(filePath);
-    // await sandbox.files.write("/home/user/input.jsonl", inputContent);
+    if (filePath) {
+      const inputContent = fs.readFileSync(filePath);
+      await sandbox.files.write("/home/user/input.jsonl", inputContent);
+    }
 
     // Install dependencies and set up TypeScript
     console.log("Installing dependencies...");
@@ -33,7 +35,12 @@ async function analyzeParcels(filePath?: string) {
     // Run the analysis script with ts-node
     console.log("Running analysis...");
     const result = await sandbox.commands.run(
-      "python /home/user/analyze_parcels.py /app/data.csv /home/user/output.jsonl"
+      `python /home/user/analyze_parcels.py ${
+        filePath ? "/home/user/input.jsonl" : "/app/data.csv"
+      } /home/user/output.jsonl`,
+      {
+        timeoutMs: 1000 * 60 * 5,
+      }
     );
 
     // Print stdout and stderr from the sandbox
@@ -61,11 +68,7 @@ async function analyzeParcels(filePath?: string) {
 }
 
 // Main execution
-const filePath = process.argv[2];
-// if (!filePath) {
-//   console.error("Please provide the path to the JSONL file");
-//   process.exit(1);
-// }
+const filePath = process.argv[2]; // optional, otherwise use the default data file
 
 // Check for required environment variables
 if (!process.env.E2B_API_KEY) {
@@ -73,11 +76,11 @@ if (!process.env.E2B_API_KEY) {
   process.exit(1);
 }
 
-// if (!process.env.OPENAI_API_KEY) {
-//   console.error(
-//     "Please set the OPENAI_API_KEY environment variable in .env file"
-//   );
-//   process.exit(1);
-// }
+if (!process.env.OPENAI_API_KEY) {
+  console.error(
+    "Please set the OPENAI_API_KEY environment variable in .env file"
+  );
+  process.exit(1);
+}
 
 analyzeParcels(filePath).catch(console.error);

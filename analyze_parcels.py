@@ -87,112 +87,99 @@ def calculate_value_score(parcel: Parcel) -> float:
 
     if parcel.podil_jmenovatel is not None and parcel.podil_jmenovatel > 2:
         return score
-    
+
     if parcel.nazev_druhu_pozemku is not None and 'vodn' in parcel.nazev_druhu_pozemku.lower():
         return score
 
     # Area score (normalized)
-    score += min(parcel.vlastnena_vymera / 1000, 1) * 0.4
+    score += min(parcel.vlastnena_vymera / 1000, 1) * 0.8
 
     # Location desirability
     location_score = 0.6 if 'praha' in parcel.nazev_obce.lower() else 0.3
-    score += location_score * 0.6
+    score += location_score * 0.2
 
     return score
 
-async def analyze_names_batch(client: OpenAI, names: List[str], batch_size: int = 50) -> List[Dict]:
-    results = []
-    for i in range(0, len(names), batch_size):
-        batch = names[i:i + batch_size]
-        print(f"\nAnalyzing batch {i//batch_size + 1} of {(len(names) + batch_size - 1)//batch_size} ({len(batch)} names)...", flush=True)
+async def analyze_single_batch(client: OpenAI, batch: List[str], batch_num: int, total_batches: int) -> List[Dict]:
+    print(f"\nAnalyzing batch {batch_num} of {total_batches} ({len(batch)} names)...", flush=True)
 
-        prompt = f'''Analyze these Czech names from the 1930s-1940s period:
+    prompt = f'''Analyze these Czech names from the 1930s-1940s period:
 
 {chr(10).join(f'"{name}"' for name in batch)}
 
-For each name, provide a JSON response with:
-1. uniquenessScore (0-1): How unique/uncommon is this name? Consider:
-   - Common Czech names like "Jan", "Josef", "Marie" should get low scores
-   - Uncommon names, especially Jewish names, should get high scores
-2. isJewishName (boolean): Is this likely a Jewish name?
-3. historicalContext (string): Brief explanation of the name's historical significance
+Return a JSON of {{"names":[{{"name":"Jan Novák","score":0.4,"jewish":true}},{{"name":"Marie Nováková","score":0.2,"jewish":false}}]}} where score is (0-1): How unique/uncommon is this name? Consider: - Common Czech names like "Jan", "Josef", "Marie" should get low scores - Uncommon names, especially Jewish names, should get high scores. and jewish is true if the name is likely jewish.
+'''
 
-Provide the results as a JSON array, one object per name, in the same order as the input names.
+    try:
+        response = client.chat.completions.create(
+            model="gpt-4o-mini",
+            messages=[{"role": "user", "content": prompt}],
+            # temperature=0.3,
+            response_format={"type": "json_object"},
+            stream=False
+        )
 
-Example response:
-[
-  {{
-    "uniquenessScore": 0.8,
-    "isJewishName": true,
-    "historicalContext": "Jewish surname with German origin, common among Prague's Jewish community"
-  }},
-  {{
-    "uniquenessScore": 0.3,
-    "isJewishName": false,
-    "historicalContext": "Common Czech given name and surname"
-  }}
-]'''
+        content = response.choices[0].message.content.strip()
+        print(f"Batch {batch_num} response length: {len(content)} characters", flush=True)
+        print(f"Batch {batch_num} first 200 chars: {content[:200]}...", flush=True)
 
-        max_retries = 3
-        for attempt in range(max_retries):
-            try:
-                response = client.chat.completions.create(
-                    model="gpt-4",
-                    messages=[{"role": "user", "content": prompt}],
-                    temperature=0.3,
-                    max_tokens=4000  # Increased max tokens
-                )
+        # Try to clean the response if it's not valid JSON
+        if not content.startswith('['):
+            import re
+            json_match = re.search(r'\[.*\]', content, re.DOTALL)
+            if json_match:
+                content = json_match.group(0)
 
-                content = response.choices[0].message.content.strip()
-                print(f"Response length: {len(content)} characters", flush=True)
-                print(f"First 200 chars: {content[:200]}...", flush=True)
+        batch_results = json.loads(content)
+        print(f"Batch {batch_num} successfully parsed {len(batch_results)} results", flush=True)
 
-                # Try to clean the response if it's not valid JSON
-                if not content.startswith('['):
-                    import re
-                    json_match = re.search(r'\[.*\]', content, re.DOTALL)
-                    if json_match:
-                        content = json_match.group(0)
+        # Validate the results
+        if not isinstance(batch_results, list):
+            raise ValueError("Response is not a list")
+        if len(batch_results) != len(batch):
+            raise ValueError(f"Expected {len(batch)} results, got {len(batch_results)}")
+        if not all(isinstance(r, dict) and all(k in r for k in ['score'])
+                  for r in batch_results):
+            raise ValueError("Invalid result structure")
 
-                batch_results = json.loads(content)
-                print(f"Successfully parsed {len(batch_results)} results", flush=True)
+        return batch_results
 
-                # Validate the results
-                if not isinstance(batch_results, list):
-                    raise ValueError("Response is not a list")
-                if len(batch_results) != len(batch):
-                    raise ValueError(f"Expected {len(batch)} results, got {len(batch_results)}")
-                if not all(isinstance(r, dict) and all(k in r for k in ['uniquenessScore', 'isJewishName', 'historicalContext'])
-                          for r in batch_results):
-                    raise ValueError("Invalid result structure")
+    except Exception as e:
+        print(f"Batch {batch_num} failed: {str(e)}", flush=True)
+        print(f"Error type: {type(e)}", flush=True)
+        import traceback
+        print(f"Traceback: {traceback.format_exc()}", flush=True)
+        return [{
+            "score": 0.0
+        } for _ in batch]
 
-                results.extend(batch_results)
-                break  # Success, exit retry loop
+async def analyze_names_batch(client: OpenAI, names: List[str], batch_size: int = 100, max_concurrent: int = 20) -> List[Dict]:
+    # Split names into batches
+    batches = [names[i:i + batch_size] for i in range(0, len(names), batch_size)]
+    total_batches = len(batches)
+    print(f"\nProcessing {total_batches} batches with {max_concurrent} concurrent requests...", flush=True)
 
-            except Exception as e:
-                print(f"Attempt {attempt + 1}/{max_retries} failed: {str(e)}", flush=True)
-                print(f"Error type: {type(e)}", flush=True)
-                import traceback
-                print(f"Traceback: {traceback.format_exc()}", flush=True)
+    # Process batches in parallel with a semaphore to limit concurrent requests
+    import asyncio
+    semaphore = asyncio.Semaphore(max_concurrent)
 
-                if attempt < max_retries - 1:
-                    print("Retrying with smaller batch size...", flush=True)
-                    # Reduce batch size for next attempt
-                    batch = batch[:len(batch)//2]
-                    if len(batch) < 5:  # If batch is too small, just add default results
-                        results.extend([{
-                            "uniquenessScore": 0.5,
-                            "isJewishName": False,
-                            "historicalContext": "Analysis failed"
-                        } for _ in batch])
-                        break
-                else:
-                    # All retries failed, add default results
-                    results.extend([{
-                        "uniquenessScore": 0.5,
-                        "isJewishName": False,
-                        "historicalContext": "Analysis failed"
-                    } for _ in batch])
+    async def process_batch_with_semaphore(batch: List[str], batch_num: int) -> List[Dict]:
+        async with semaphore:
+            return await analyze_single_batch(client, batch, batch_num, total_batches)
+
+    # Create tasks for all batches
+    tasks = [
+        process_batch_with_semaphore(batch, i + 1)
+        for i, batch in enumerate(batches)
+    ]
+
+    # Wait for all tasks to complete
+    results = []
+    batch_results = await asyncio.gather(*tasks)
+
+    # Flatten results
+    for batch_result in batch_results:
+        results.extend(batch_result)
 
     print(f"\nTotal results processed: {len(results)}", flush=True)
     return results
@@ -200,78 +187,86 @@ Example response:
 async def analyze_parcels(input_file: str, output_file: str):
     print(f"\nStarting analysis at {datetime.now()}", flush=True)
 
-    # Initialize OpenAI client
-    # client = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
-
     # Read the JSONL file
     print(f"Reading parcels from {input_file}...", flush=True)
     parcels: List[Parcel] = []
     with open(input_file, 'r') as f:
         for i, line in enumerate(f):
-            if i >= 60000:
+            if i >= 10000:
                 break
             if line.strip():
                 parcels.append(Parcel(json.loads(line)))
     print(f"Loaded {len(parcels)} parcels", flush=True)
 
-    # Get unique names for batch analysis
-    unique_names = list(set(p.opsub_nazev for p in parcels))
-    print(f"Found {len(unique_names)} unique names to analyze", flush=True)
-
-    # Analyze names in batches
-    # name_analyses = await analyze_names_batch(client, unique_names)
-
-    # Create a mapping of names to their analyses
-    # name_to_analysis = dict(zip(unique_names, name_analyses))
-
-    # Analyze each parcel
-    analyzed_parcels = []
+    # First calculate value scores for all parcels
+    print("\nCalculating value scores...", flush=True)
+    parcels_with_scores = []
     for i, parcel in enumerate(parcels, 1):
-        if i % 10 == 0:  # Progress update every 10 parcels
+        if i % 100 == 0:  # Progress update every 100 parcels
             print(f"Processing parcel {i}/{len(parcels)}...", flush=True)
 
         value_score = calculate_value_score(parcel)
-        # name_analysis = name_to_analysis[parcel.opsub_nazev]
+        result = parcel.to_dict()
+        result['valueScore'] = value_score
+        parcels_with_scores.append(result)
+
+    # Sort by value score and take top 200
+    print("\nSorting by value score...", flush=True)
+    parcels_with_scores.sort(key=lambda x: x['valueScore'], reverse=True)
+    top_parcels = parcels_with_scores[:200]  # Adjust number as needed
+
+    # Get unique names from top parcels for batch analysis
+    unique_names = list(set(p['opsub_nazev'] for p in top_parcels))
+    print(f"Analyzing {len(unique_names)} unique names from top parcels...", flush=True)
+
+    # If OpenAI API key is set, analyze names in batches
+    if os.getenv('OPENAI_API_KEY'):
+        client = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
+        name_analyses = await analyze_names_batch(client, unique_names)
+        name_to_analysis = dict(zip(unique_names, name_analyses))
+    else:
+        name_to_analysis = {name: {'score': 0.0, 'jewish': False} for name in unique_names}
+
+    # Calculate final scores for top parcels
+    print("\nCalculating final scores...", flush=True)
+    analyzed_parcels = []
+    for parcel in top_parcels:
+        name_analysis = name_to_analysis[parcel['opsub_nazev']]
 
         # Calculate name score
-        # name_score = (
-        #     name_analysis['uniquenessScore'] * 0.6 +
-        #     (0.4 if name_analysis['isJewishName'] else 0)
-        # )
+        name_score = (
+            name_analysis['score'] * 0.6 +
+            (0.4 if name_analysis['jewish'] else 0)
+        )
 
-        # Calculate total score (60% value, 40% name)
-        total_score = value_score * 0.6 #+ name_score * 0.4
+        # Calculate total score (30% value, 70% name)
+        total_score = parcel['valueScore'] * 0.3 + name_score * 0.7
 
-        result = parcel.to_dict()
-        result.update({
-            'valueScore': value_score,
-            # 'nameAnalysis': name_analysis,
+        parcel.update({
+            'nameAnalysis': name_analysis,
             'totalScore': total_score
         })
-        analyzed_parcels.append(result)
+        analyzed_parcels.append(parcel)
 
     # Sort by total score
-    print("\nSorting results...", flush=True)
+    print("\nSorting by total score...", flush=True)
     analyzed_parcels.sort(key=lambda x: x['totalScore'], reverse=True)
 
     # Write results
     print(f"Writing results to {output_file}...", flush=True)
     with open(output_file, 'w', encoding='utf-8') as f:
-        for parcel in analyzed_parcels[:200]:  # Write only the first 100 results
+        for parcel in analyzed_parcels:
             f.write(json.dumps(parcel, ensure_ascii=False) + '\n')
 
-    # Print top 200
-    print(f"\nTop 200 most valuable parcels with unique owners:")
-    for i, parcel in enumerate(analyzed_parcels[:200], 1):
+    # Print top 10
+    print(f"\nTop 10 most valuable parcels with unique owners:")
+    for i, parcel in enumerate(analyzed_parcels[:10], 1):
         print(f"{i}. Parcel {parcel['parcela_formatovano']} - Owner: {parcel['opsub_nazev']}")
         print(f"   Location: {parcel['nazev_obce']}, {parcel['nazev_okresu']}")
         print(f"   Area: {parcel['parcela_vymera']} m²")
         print(f"   Land Type: {parcel['nazev_druhu_pozemku']}")
         print(f"   Value Score: {parcel['valueScore']:.2f}")
-        # print(f"   Name Analysis:")
-        # print(f"     - Uniqueness: {parcel['nameAnalysis']['uniquenessScore']:.2f}")
-        # print(f"     - Jewish Name: {parcel['nameAnalysis']['isJewishName']}")
-        # print(f"     - Historical Context: {parcel['nameAnalysis']['historicalContext']}")
+        print(f"   Name Score: {parcel['nameAnalysis']['score']:.2f}")
         print(f"   Total Score: {parcel['totalScore']:.2f}")
         print("---")
 

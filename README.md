@@ -8,16 +8,16 @@ Approximately 120,000 land parcels, with a total estimated value of 0.5 billion 
 
 ## ⚙️ How It Works
 
-1. A CSV file containing data about forgotten properties is uploaded to E2B.  
-2. Within E2B, the file is processed, and properties are sorted by size, estimated value, and uniqueness of the owner names.  
-3. The top results—based on a combination of value and uniqueness—are passed to the web search agent.  
-4. The web search agent scrapes top Google results and relevant webpages for information about the given names.  
-5. The retrieved data is compared with the original input, such as the owner’s name, last known address, and property location.  
+1. A CSV file containing data about forgotten properties is uploaded to E2B.
+2. Within E2B, the file is processed, and properties are sorted by size, estimated value, and uniqueness of the owner names.
+3. The top results—based on a combination of value and uniqueness—are passed to the web search agent.
+4. The web search agent scrapes top Google results and relevant webpages for information about the given names.
+5. The retrieved data is compared with the original input, such as the owner’s name, last known address, and property location.
 6. Matches are scored on a confidence scale from 1 to 10, helping researchers focus on the most promising leads.
 
 # Happy cases
 
-* [Bedřiška Rosenbaumanová](https://github.com/pavelkraleu/e2b_hack/blob/main/research/research_bedřiška_rosenbaumanová.md)
+- [Bedřiška Rosenbaumanová](https://github.com/pavelkraleu/e2b_hack/blob/main/research/research_bedřiška_rosenbaumanová.md)
 
 # Parcel Analyzer
 
@@ -51,10 +51,10 @@ The script will:
 
 1. Read the JSONL file
 2. Calculate value scores based on:
-   - Parcel area (40% weight)
-   - Location desirability (60% weight)
+   - Parcel area (80% weight)
+   - Location desirability (20% weight)
 3. Calculate name uniqueness scores
-4. Combine the scores (70% value, 30% uniqueness)
+4. Combine the scores (30% value, 70% uniqueness)
 5. Sort parcels by total score
 6. Output results to `analyzed_parcels.jsonl` in the same directory as the input file
 7. Display the top 10 most valuable parcels with unique owners
