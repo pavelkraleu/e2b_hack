@@ -1,3 +1,20 @@
+# HeirLocator
+
+**HeirLocator** is an autonomous agent designed to assist heir researchers in identifying potential heirs to forgotten properties in the Czech Republic. By automating data processing and online research, it significantly reduces the time and effort required to evaluate a large dataset of over 400,000 entries of unclaimed land parcels in the country.
+
+## 🚨 Problem It Solves
+
+Approximately 120,000 land parcels, with a total estimated value of 0.5 billion USD, have been taken over by the state after being forgotten during inheritance proceedings. Some heirs of the original owners—most of whom were born between 1890 and 1920—could potentially be identified through simple online research using public family trees, local historical records, and wartime documents. However, manually searching through thousands of entries is a tedious and time-consuming task. **HeirLocator** automates this process and helps prioritize the most promising leads.
+
+## ⚙️ How It Works
+
+1. A CSV file containing data about forgotten properties is uploaded to E2B.  
+2. Within E2B, the file is processed, and properties are sorted by size, estimated value, and uniqueness of the owner names.  
+3. The top results—based on a combination of value and uniqueness—are passed to the web search agent.  
+4. The web search agent scrapes top Google results and relevant webpages for information about the given names.  
+5. The retrieved data is compared with the original input, such as the owner’s name, last known address, and property location.  
+6. Matches are scored on a confidence scale from 1 to 10, helping researchers focus on the most promising leads.
+
 # Happy cases
 
 * [Bedřiška Rosenbaumanová](https://github.com/pavelkraleu/e2b_hack/blob/main/research/research_bedřiška_rosenbaumanová.md)
