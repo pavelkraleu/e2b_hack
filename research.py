@@ -42,7 +42,7 @@ def cache_response(url, response):
     with open(cache_path, 'w') as f:
         json.dump(response, f)
 
-def conduct_research(person_name, last_known_location, property_address):
+def conduct_research(person_name, last_known_location, property_address, localid):
     url = "https://google.serper.dev/search"
 
     payload = json.dumps({
@@ -170,6 +170,7 @@ def conduct_research(person_name, last_known_location, property_address):
 - Name: {person_name}
 - Last known location: {last_known_location}
 - Property at: {property_address} 
+- [PZMK](https://pzmk.cz/{localid})
 
 ## Research Summary
 - **Exact Person Found**: {'Yes' if summary.exact_person_found else 'No'}
