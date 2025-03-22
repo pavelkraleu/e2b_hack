@@ -1,3 +1,4 @@
 .DS_Store
-parcels2_backup_03_2025_small.csv
-parcels2_backup_03_2025.csv
+*.jsonl
+.env
+node_modules
