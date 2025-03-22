@@ -65,7 +65,7 @@ def conduct_research(person_name, last_known_location, property_address, localid
 
     for url in respo_json["organic"]:
         print(f"Processing URL: {url['link']}")
-        if "xlsx" in url:
+        if "xls" in url['link'] or "pdf" in url['link']:
             continue
 
         cached_response = get_cached_response(url["link"])
@@ -192,3 +192,11 @@ def conduct_research(person_name, last_known_location, property_address, localid
         f.write(combined_markdown)
 
     print(f"\nCombined research summary has been saved to {output_file}")
+
+
+# person_name = "Arnošt Stadler"
+# last_known_location = "unknown"
+# property_address = "Praha-Vršovice, č. 2449/1"
+
+# conduct_research("Josefa Perluszová", "P9 J.Jabůrkové 6/17", "Vysočany, č. 16/1", "2109591101")
+conduct_research("Fiala Jeroným JUDr.", "Hvězdova 59, Nusle, 14000 Praha", "Břevnov, č. 3563", "2109591101")
