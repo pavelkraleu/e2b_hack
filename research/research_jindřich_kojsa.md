@@ -8,7 +8,7 @@
 ## Research Summary
 - **Exact Person Found**: No
   - **Exact Person Found Rating (1/10)**: 2
-  - **Reason for Exact Person Found**: The search did not return substantial information specifically about Jindřich Kojsa. The property details match, but there is no additional information to verify his identity or life, such as professional background or family ties.
+  - **Reason for Exact Person Found**: The search results mention a person named Jindřich Kojsa with property ownership in Zádveřice-Raková, but there is no biographical information or confirmation linking this person to specific details about his life or family. The information seems mixed with unrelated individuals, suggesting only a weak match on property ownership details, with no additional confirming information about his life or family.
 - **Years of Life**: 
 - **Family Members**: 
 - **Fate**: 
@@ -16,26 +16,30 @@
 ---
 
 ## Detailed Research
-```markdown
-# Jindřich Kojsa: Summary
+Based on the provided information from the internet searches, here's a comprehensive summary of Jindřich Kojsa:
 
-## Brief Biography
-The information provided from the internet searches does not give a direct biography for Jindřich Kojsa. There is a mention of a property associated with the name Jindřich Kojsa located at Zádveřice 789747, č. 1707/27, and an address in Raková 8, 76312 Zádveřice-Raková. The person was born approximately between 1890 and 1930. However, there is no detailed information on his profession, life accomplishments, or personal history.
+## Biography
+The searches do not provide specific biographical information about Jindřich Kojsa. The information seems to be mixed with other individuals who have similar names, such as Jindřich Matiegka, a Czech physician and anthropologist, and various other individuals named Jindřich Adolf or Mrkvička Jindřich, none of whom are definitively linked to the property in Zádveřice-Raková. There is no direct confirmation or specific details about Jindřich Kojsa's life, occupation, or activities.
 
 ## Family Members
-The internet searches did not yield any specific information about Jindřich Kojsa's family members. Consequently, no names or details of potential relatives are available from the data provided.
+The searches do not yield any information about the family members of Jindřich Kojsa. There are no details about relatives or potential heirs related to the lost property.
 
-## Any Other Relevant Information
-There is no additional relevant information specifically about Jindřich Kojsa from the searches. The sources mentioned do not seem to directly connect to him, but rather to other individuals or topics.
+## Other Relevant Information
+- **Property Ownership**: Jindřich Kojsa is known to own a property at Zádveřice 789747, č. 1707/27, although no additional details about this property are provided.
+- **Location**: The address associated with Jindřich Kojsa is Raková 8, 76312 Zádveřice-Raková.
 
 ## Fate of the Person
-The fate of Jindřich Kojsa is not documented in the information provided. There is no mention of whether he is still alive or any circumstances regarding his death if applicable.
+There is no specific information regarding the fate of Jindřich Kojsa, such as his current status, whether he is alive, or if he has passed away.
 
-## Links to Relevant Sources
-- [Prof. MUDr. Jindřich Matiegka on esbirky.cz](https://www.esbirky.cz/predmet/191821)
-- [Adolf Jindřich on rejstrik-firem.kurzy.cz](https://rejstrik-firem.kurzy.cz/osoba/2630836/)
+## Conclusion
+The provided searches do not give sufficient information to construct a detailed biography or family tree for Jindřich Kojsa. There appears to be confusion with other individuals sharing similar names. For further investigation, more precise data or records specific to Jindřich Kojsa would be required.
 
-Please note that these links lead to pages that discuss other individuals with the name "Jindřich" but do not specifically pertain to Jindřich Kojsa.
-```
+For any further actions or detailed research, it may be necessary to access local municipal records, property registries, or historical documents related to the address and property in question.
 
+## Sources
+- [Esbirky](https://www.esbirky.cz/predmet/191821)
+- [Kurzy.cz - Adolf Jindřich okres Beroun](https://rejstrik-firem.kurzy.cz/osoba/2630836/)
+- [Hlídač Státu - KOJA, kom. spol. v likvidaci](https://www.hlidacstatu.cz/subjekt/VazbyOsoby/47114746)
+- [Kurzy.cz - Mrkvička Jindřich Úvaly](https://rejstrik-firem.kurzy.cz/osoba/2630831/)
+- [Peníze.cz - Jindřich Adolf](https://rejstrik.penize.cz/jindrich-adolf)
     
