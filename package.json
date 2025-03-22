@@ -8,6 +8,7 @@
     "start": "tsx index.ts"
   },
   "dependencies": {
+    "@e2b/cli": "^1.2.3",
     "@e2b/code-interpreter": "^1.0.4",
     "dotenv": "^16.4.1"
   },

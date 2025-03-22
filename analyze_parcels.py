@@ -195,13 +195,15 @@ async def analyze_parcels(input_file: str, output_file: str):
     print(f"\nStarting analysis at {datetime.now()}", flush=True)
 
     # Initialize OpenAI client
-    client = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
+    # client = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
 
     # Read the JSONL file
     print(f"Reading parcels from {input_file}...", flush=True)
     parcels: List[Parcel] = []
     with open(input_file, 'r') as f:
-        for line in f:
+        for i, line in enumerate(f):
+            if i >= 60000:
+                break
             if line.strip():
                 parcels.append(Parcel(json.loads(line)))
     print(f"Loaded {len(parcels)} parcels", flush=True)
@@ -214,7 +216,7 @@ async def analyze_parcels(input_file: str, output_file: str):
     # name_analyses = await analyze_names_batch(client, unique_names)
 
     # Create a mapping of names to their analyses
-    name_to_analysis = dict(zip(unique_names, name_analyses))
+    # name_to_analysis = dict(zip(unique_names, name_analyses))
 
     # Analyze each parcel
     analyzed_parcels = []
@@ -223,21 +225,21 @@ async def analyze_parcels(input_file: str, output_file: str):
             print(f"Processing parcel {i}/{len(parcels)}...", flush=True)
 
         value_score = calculate_value_score(parcel)
-        name_analysis = name_to_analysis[parcel.opsub_nazev]
+        # name_analysis = name_to_analysis[parcel.opsub_nazev]
 
         # Calculate name score
-        name_score = (
-            name_analysis['uniquenessScore'] * 0.6 +
-            (0.4 if name_analysis['isJewishName'] else 0)
-        )
+        # name_score = (
+        #     name_analysis['uniquenessScore'] * 0.6 +
+        #     (0.4 if name_analysis['isJewishName'] else 0)
+        # )
 
         # Calculate total score (60% value, 40% name)
-        total_score = value_score * 0.6 + name_score * 0.4
+        total_score = value_score * 0.6 #+ name_score * 0.4
 
         result = parcel.to_dict()
         result.update({
             'valueScore': value_score,
-            'nameAnalysis': name_analysis,
+            # 'nameAnalysis': name_analysis,
             'totalScore': total_score
         })
         analyzed_parcels.append(result)
@@ -248,22 +250,22 @@ async def analyze_parcels(input_file: str, output_file: str):
 
     # Write results
     print(f"Writing results to {output_file}...", flush=True)
-    with open(output_file, 'w') as f:
-        for parcel in analyzed_parcels:
-            f.write(json.dumps(parcel) + '\n')
+    with open(output_file, 'w', encoding='utf-8') as f:
+        for parcel in analyzed_parcels[:100]:  # Write only the first 100 results
+            f.write(json.dumps(parcel, ensure_ascii=False) + '\n')
 
-    # Print top 10
-    print(f"\nTop 10 most valuable parcels with unique owners:")
-    for i, parcel in enumerate(analyzed_parcels[:10], 1):
+    # Print top 50
+    print(f"\nTop 100 most valuable parcels with unique owners:")
+    for i, parcel in enumerate(analyzed_parcels[:100], 1):
         print(f"{i}. Parcel {parcel['parcela_formatovano']} - Owner: {parcel['opsub_nazev']}")
         print(f"   Location: {parcel['nazev_obce']}, {parcel['nazev_okresu']}")
         print(f"   Area: {parcel['parcela_vymera']} m²")
         print(f"   Land Type: {parcel['nazev_druhu_pozemku']}")
         print(f"   Value Score: {parcel['valueScore']:.2f}")
-        print(f"   Name Analysis:")
-        print(f"     - Uniqueness: {parcel['nameAnalysis']['uniquenessScore']:.2f}")
-        print(f"     - Jewish Name: {parcel['nameAnalysis']['isJewishName']}")
-        print(f"     - Historical Context: {parcel['nameAnalysis']['historicalContext']}")
+        # print(f"   Name Analysis:")
+        # print(f"     - Uniqueness: {parcel['nameAnalysis']['uniquenessScore']:.2f}")
+        # print(f"     - Jewish Name: {parcel['nameAnalysis']['isJewishName']}")
+        # print(f"     - Historical Context: {parcel['nameAnalysis']['historicalContext']}")
         print(f"   Total Score: {parcel['totalScore']:.2f}")
         print("---")
 
@@ -274,10 +276,10 @@ if __name__ == "__main__":
         print("Usage: python analyze_parcels.py input.jsonl output.jsonl")
         sys.exit(1)
 
-    # Check for OpenAI API key
-    if not os.getenv('OPENAI_API_KEY'):
-        print("Error: OPENAI_API_KEY environment variable is not set", file=sys.stderr)
-        sys.exit(1)
+    # # Check for OpenAI API key
+    # if not os.getenv('OPENAI_API_KEY'):
+    #     print("Error: OPENAI_API_KEY environment variable is not set", file=sys.stderr)
+    #     sys.exit(1)
 
     input_file = sys.argv[1]
     output_file = sys.argv[2]

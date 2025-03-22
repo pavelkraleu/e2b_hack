@@ -6,15 +6,15 @@ import * as dotenv from "dotenv";
 // Load environment variables from .env file
 dotenv.config();
 
-async function analyzeParcels(filePath: string) {
-  const templateId = "base"; // "8ci4urh4nzk4wvfyqi7s";
+async function analyzeParcels(filePath?: string) {
+  const templateId = "9goyjdatvjzr0jxgp2tq";
 
   // Create a new sandbox with environment variables
   const sandbox = await Sandbox.create(templateId, {
     apiKey: process.env.E2B_API_KEY,
-    envs: {
-      OPENAI_API_KEY: process.env.OPENAI_API_KEY || "",
-    },
+    // envs: {
+    //   OPENAI_API_KEY: process.env.OPENAI_API_KEY || "",
+    // },
   });
 
   try {
@@ -22,9 +22,9 @@ async function analyzeParcels(filePath: string) {
     const scriptContent = fs.readFileSync("analyze_parcels.py");
     await sandbox.files.write("/home/user/analyze_parcels.py", scriptContent);
 
-    // Copy the input file
-    const inputContent = fs.readFileSync(filePath);
-    await sandbox.files.write("/home/user/input.jsonl", inputContent);
+    // // Copy the input file
+    // const inputContent = fs.readFileSync(filePath);
+    // await sandbox.files.write("/home/user/input.jsonl", inputContent);
 
     // Install dependencies and set up TypeScript
     console.log("Installing dependencies...");
@@ -33,7 +33,7 @@ async function analyzeParcels(filePath: string) {
     // Run the analysis script with ts-node
     console.log("Running analysis...");
     const result = await sandbox.commands.run(
-      "python /home/user/analyze_parcels.py /home/user/input.jsonl /home/user/output.jsonl"
+      "python /home/user/analyze_parcels.py /app/data.csv /home/user/output.jsonl"
     );
 
     // Print stdout and stderr from the sandbox
@@ -50,11 +50,8 @@ async function analyzeParcels(filePath: string) {
     const outputContent = await sandbox.files.read("/home/user/output.jsonl");
 
     // Write results to local file
-    const outputPath = path.join(
-      path.dirname(filePath),
-      "analyzed_parcels.jsonl"
-    );
-    fs.writeFileSync(outputPath, outputContent);
+    const outputPath = "analyzed_parcels.jsonl";
+    fs.writeFileSync(outputPath, outputContent, { encoding: "utf-8" });
 
     console.log(`\nAnalysis complete. Results written to ${outputPath}`);
   } finally {
@@ -65,10 +62,10 @@ async function analyzeParcels(filePath: string) {
 
 // Main execution
 const filePath = process.argv[2];
-if (!filePath) {
-  console.error("Please provide the path to the JSONL file");
-  process.exit(1);
-}
+// if (!filePath) {
+//   console.error("Please provide the path to the JSONL file");
+//   process.exit(1);
+// }
 
 // Check for required environment variables
 if (!process.env.E2B_API_KEY) {
@@ -76,11 +73,11 @@ if (!process.env.E2B_API_KEY) {
   process.exit(1);
 }
 
-if (!process.env.OPENAI_API_KEY) {
-  console.error(
-    "Please set the OPENAI_API_KEY environment variable in .env file"
-  );
-  process.exit(1);
-}
+// if (!process.env.OPENAI_API_KEY) {
+//   console.error(
+//     "Please set the OPENAI_API_KEY environment variable in .env file"
+//   );
+//   process.exit(1);
+// }
 
 analyzeParcels(filePath).catch(console.error);
